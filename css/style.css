@@ -1,0 +1,147 @@
+section,
+header,
+nav,
+article,
+aside,
+footer,
+footer{
+    display: block;
+}
+
+
+
+.left,.content{
+    position: absolute;
+    overflow: auto;
+    padding: 10px;
+}
+.header{
+    height: 80px;
+    background-color: #4B5CD7;
+    border-bottom: 2px solid #081472;
+}
+.header h1{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    color: aliceblue
+}
+.content{
+    top: 82px;
+    left: 180px;
+    bottom: 0;
+    right: 0;
+}
+
+.left {
+    width: 150px;
+    background-color:#2E3884 ;
+    border-right: 1px solid #081472;
+    height: 100%;
+    color: aliceblue
+}
+
+footer{
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    left: 1px; 
+    height: 20px;
+    text-align: center;
+    padding: 20px;
+    border:2px solid #081472;
+    background-color: #4B5CD7;
+    color: aliceblue;
+}
+
+.block{
+    background-color: #717DD7;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    right: 1px;
+}
+.menu{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 2px solid #4B5CD7;
+    background-color: aliceblue;
+ 
+
+}
+.menu a{
+    background-color: #081472;
+    color: aliceblue;
+    font-weight: 400;
+    border-left: 5px solid #4B5CD7;
+    display: inline-block;
+    padding: 5px 10px;
+    width: 100px;
+    /* border-bottom: 1px solid ;     */
+}
+
+.menu li{
+    padding: 1px;
+    display: inline;
+}
+
+.menu a:hover {
+    background-color:#1729B0;
+    color: aliceblue;
+    border-left: 5px solid #717DD7;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #717DD7 ;
+    color: #081472;
+
+}
+
+.content-block{
+    border: 2px solid #081472 ;
+
+}
+
+.content-block-auto{
+    width: 200px;
+    background-color: #4B5CD7;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container-inline {
+    text-align: center;
+    border: 2px solid #4B5CD7;
+    color: aliceblue;
+    background-color: #4B5CD7
+}
+
+.content-inline-block {
+    display: inline-blok;
+    border: 2px solid #081472;
+}
+
+.rounded{
+    border: 2px solid #081472;
+    border-radius: 10px;
+    box-shadow: 2px 1px 50px ;
+}
+
+.on-bg{
+    /* background-image: url(src="../image/картинка.jpg"); */
+    height: 200px;
+    background-color: #07137279;
+    /* background-repeat:repeat-x; */
+}
+
+.on-gradient{
+    background: linear-gradient(to top, #081472, #0713720e  );
+    height: 200px;
+}
+

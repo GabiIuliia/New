@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Работаем с Bootstrap</title>
+</head>
+<body>
+    <!-- Резиновый контейнер  -->
+    <div class="container">
+        <!-- <div class="col">1/3</div>
+        <div class="col">2/3</div>
+        <div class="col">3/3</div> -->
+        <div class="row">
+            <div class="col-6">1 (6 колонок)</div>
+            <div class="col-6">2 (6 колонок)</div>
+            <div class="col-12">3 (12 колонок)</div>
+            <div class="col-8">4 (8 колонок)</div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Адаптивный блок бутстрап -->
+        <div class="col-12 col-sm-9 col-md-7 col-lg-5 col-xl-3">Контейнер</div>
+        <div class="col">3/3</div> 
+
+    </div>
+<!-- Цвет заливки -->
+    <div class="row">
+        <div class="col-6 bg-sucesses text-warning">1 (6 колонок)</div>
+        <div class="col-6 bg-warning text-dark">2 (6 колонок)</div>
+        <div class="col-12 bg-danger text-white">3 (12 колонок)</div>
+        <div class="col-8 bg-info text-primary">4 (8 колонок)</div>
+        <div class="col-4 bg-secondary text-white">5 (4 колонок)</div>
+        <div class="col-12 bg-secondary bg-opacity-25 text-white">6 (12 колонок)</div>
+
+    
+    </div>
+    <br><br><br>
+<!-- границы -->
+    <div class="row"></div>
+        <div class="col-6 border bg-sucesses text-warning">Границы вокруг</div>
+        <div class="col-6 border border-top-0 bg-warning text-dark">Границы сверху нет</div>
+        <div class="w-100"></div>
+        <div class="col-6 border border-primary bg-info text-primary">Границы вокруг</div>
+        <div class="col-6 border border-danger border-end-0 bg-secondary text-white">Границы справа нет</div>
+
+    </div>
+    <br><br><br>
+<!-- Отступы --> 
+    <div class="row">
+    <!-- Первый блок -->
+        <div class="col-4 ms-auto me-3 bg-success" style="height: 200px;"></div>
+   <!-- Второй блок -->
+        <div class="col-4 me-auto ms-3 bg-danger" style="height: 200px;"></div>
+
+    </div>
+    <br><br><br>
+<!--Ширина и высота  -->
+<div class="row">
+        <div class="w-25 p-3" style="background-color: blue;">25%</div>
+        <div class="w-50 p-3" style="background-color: rgb(255, 105, 180);">50%</div>
+        <div class="w-75 p-3" style="background-color: rgb(255, 20, 147);">75%</div>
+        <div class="w-100 p-3" style="background-color: #c71585;">100%</div>
+       
+</div>
+<div class="row">
+    <div class="w-25 p-3" style="background-color: blue;">25%</div>
+    <div class="w-50 p-3" style="background-color: rgb(255, 105, 180);">50%</div>
+    <div class="w-75 p-3" style="background-color: rgb(255, 20, 147);">75%</div>
+    <div class="w-100 p-3" style="background-color: #c71585;">100%</div>
+   
+</div>
+
+
+
+</body>
+</html>
